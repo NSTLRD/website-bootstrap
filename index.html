@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Proyecto bootstrap</title>
+    <author>Starling javier diaz aquino
+      2021-0416
+    </author>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+            <a class="navbar-brand" href="#">RICKY AND MORTY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">PERSONAJES</a>
+                <a class="nav-item nav-link" href="#">ABOUT ME</a>
+                <a class="nav-item nav-link" href="#">CONTACT ME</a>
+              </div>
+            </div>
+    </nav>
+
+    <!--start nav section-->
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">inicio</a></li>
+      <li class="breadcrumb-item"><a href="#">lista de capitulos</a></li>
+      <li class="breadcrumb-item"><a href="#">opiniones sobre la serie</a></li>
+    </ol>
+
+
+    <!--star-carussel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/ricki-morty1.jpg" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                  <h1>RICK Y MORTY.</h1>
+                <p><strong>Después de haber estado desaparecido durante casi 20 años, Rick Sánchez llega de imprevisto a la puerta de la casa
+                        de su hija Beth y se va a vivir con ella y su familia utilizando el garaje como su laboratorio personal.</strong></p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Lee mas</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/rick3.jpg" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                <p><strong>Después de haber estado desaparecido durante casi 20 años, Rick Sánchez llega de imprevisto a la puerta de la casa
+                        de su hija Beth y se va a vivir con ella y su familia utilizando el garaje como su laboratorio personal.</strong></p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Lee mas</a></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/good-ricki.webp" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                <p><strong>Después de haber estado desaparecido durante casi 20 años, Rick Sánchez llega de imprevisto a la puerta de la casa
+                        de su hija Beth y se va a vivir con ella y su familia utilizando el garaje como su laboratorio personal.</strong></p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Lee mas</a></p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--end of carousel-->
+      <hr class="featurette-divider">
+      <br>
+      <!--star of content -->
+      <div class="row featurette">
+        <div class="col-md-7" style="padding: 40px;">
+          <h2 class="featurette-item">HISTORIA.</h2>
+          <p class="lead">Rick y Morty es una serie de televisión de animación para adultos creada por Justin Roiland y Dan Harmon en 2013 para
+          «Adult Swin». ¿Qué es Adult Swim? Si no te suena de nada, se trata de la filial de la Cartoon Network que dedica su
+          programación al contenido de animación para adultos emitidos sin censura. Una emisión que, según sus propios creadores,
+          es una mezcla entre Modern Family, Los Simpsons y Futurama, mezclada con constantes guiños a grandes sagas de la ciencia
+          ficción como Regreso al futuro o Star Trek, entre muchas otras.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 400px;" src="img/cover-rick.jpg" data-holder-rendered="true">
+        </div>
+      </div>
+
+      
+
+      <!--star of content personajes principales -->
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Personajes Principales</h1>
+            <a href="#" class="btn btn-primary my-2">Saber mas sobre rick and morty</a>
+          </p>
+        </div>
+      </section>
+      <br>
+      <!-- star card-->
+      <div class="album py-5 bg-light">
+        <div class="container">
+      
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                  src="img/terminarot.jpg"
+                  data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Una aventura la cual nos llevara a los confines del universo ven y ayudanos a encontrar las ultimas piezas.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Leer...</button>
+                      
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                  alt="Thumbnail [100%x225]"
+                  src="img/rock.jpg"
+                  data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                <div class="card-body">
+                  <p class="card-text">La madre de morty se encuentra hipnotisada por un alien y debemos salvarla antes de que destruya el universo</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Leer...</button>
+                      
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                    alt="Thumbnail [100%x225]"
+                    src="img/cerveza-morty.jpg"
+                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text"> Un brindis despues de destruir a los aliens que intentaron lavarme el cerebro gracias rick por tu apoyo.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer...</button>
+              
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--contact me-->
+              
+              <div class="container" style="margin-left: 30%;"display="none">
+                <section class="container text-center">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="content text-center">
+                      <div class="container">
+                        <section class="row">
+                          <div class="col-md-8 col-md-offset-2">
+                            <div class="content text-center">
+                              <br> 
+                              <hr>
+                              <h3 style="margin-bottom:30px">CONTACT ME</h3>
+                            
+                            
+                              <div id="wait" class="form-preloader collapse"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>
+                        
+                              <form class="form-horizontal" id="contact-form" action="mailto:starlingdiaz70@gmail.com" method="post">
+                                <input type="hidden" name="currentLang" id="currentLang" value="en">
+                                <input type="hidden" name="action" id="action" value="handle_form">
+                                <input type="hidden" id="_wpnonce" name="_wpnonce" value="9bf8246719"><input type="hidden" name="_wp_http_referer" value="/en/contacts/">
+                                <div class="form-group">
+                                  <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="First name" required="">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="cognome" name="cognome" placeholder="Last name" required="">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Phone">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-12">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required="">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="col-sm-12">
+                                    <textarea class="form-control" id="mesage" name="mesage" placeholder="Message" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 83px;"></textarea>
+                                  </div>
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox" id="privacy" name="privacy" required=""> I have read and understood the <a href="https://www.crit-research.it/en/data-protection/" target="_blank">privacy policy</a> and agree to the processing of my personal data. </label>
+                                </div>
+                                <p>
+                                  <br>
+                                  <button type="submit" id="submit-btn" name="submit-btn" class="btn btn-primary btn-block">Send</button>
+                                </p>
+                              </form>
+                             
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <br>
+                      <br>
+<!--footer--> 
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2022 starlingdevCorp, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+<!--End of Page Content-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
